@@ -1,13 +1,15 @@
 cask "kkachi" do
-  version "0.1.0-beta.1"
-  sha256 "16e2165339c6b15ff10debb80012f776c10d425287003252c88e2ab670c11902"
+  arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/djfksjd/kkachi-releases/releases/download/v#{version}/KKACHI-#{version}-macos-arm64.dmg"
+  version "0.1.0-beta.1"
+  sha256 arm:   "16e2165339c6b15ff10debb80012f776c10d425287003252c88e2ab670c11902",
+         intel: "21e08b618f65e68b958ebd53d4a895aa365c38bf9cfb4f5a7f01f0147de4e63e"
+
+  url "https://github.com/djfksjd/kkachi-releases/releases/download/v#{version}/KKACHI-#{version}-macos-#{arch}.dmg"
   name "KKACHI"
   desc "Local-first Korean document workspace (beta)"
   homepage "https://github.com/djfksjd/kkachi-releases"
 
-  depends_on arch: :arm64
   depends_on macos: :monterey
 
   app "KKACHI.app"
