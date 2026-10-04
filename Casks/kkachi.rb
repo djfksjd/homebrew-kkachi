@@ -8,7 +8,7 @@ cask "kkachi" do
   homepage "https://github.com/djfksjd/kkachi-releases"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "KKACHI.app"
 
