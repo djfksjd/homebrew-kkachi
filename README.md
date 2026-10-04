@@ -13,7 +13,7 @@ brew upgrade --cask djfksjd/kkachi/kkachi
 
 Cask는 공개 GitHub 릴리스의 DMG를 다운로드하고 SHA-256을 검증합니다. Intel과 Windows 설치 파일은 아직 없습니다.
 
-앱 내부 자동 업데이트와 공개 AI 실행은 이 베타에서 제공하지 않습니다. HWPX 외부 제출용 검증도 미완료입니다. 기능 제한과 첫 실행 방법은 [설치 안내](https://github.com/djfksjd/kkachi-releases/blob/main/docs/INSTALLATION.md)를 확인하세요.
+앱 내부 자동 업데이트, KKACHI 자체 관리형 AI와 API 키(BYOK) 방식은 이 베타에서 제공하지 않습니다. Claude·Codex(ChatGPT)·Gemini 구독 계정 연결 경로는 별도로 지원하며 계정 연결과 권한이 필요합니다. HWPX 외부 제출용 검증도 미완료입니다. 기능 제한과 첫 실행 방법은 [설치 안내](https://github.com/djfksjd/kkachi-releases/blob/main/docs/INSTALLATION.md)를 확인하세요.
 
 사용자 문서와 작업공간 데이터를 자동 삭제하지 않으며 macOS 보안 기능을 해제하거나 격리 속성을 제거하지 않습니다.
 

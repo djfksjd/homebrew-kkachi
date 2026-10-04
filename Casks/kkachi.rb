@@ -15,7 +15,8 @@ cask "kkachi" do
   caveats <<~EOS
     This beta has no Apple Developer ID signature or notarization.
     On first launch, macOS may require approval in System Settings > Privacy & Security.
-    Automatic updates and public AI execution are unavailable in this beta.
+    Automatic updates, KKACHI-managed AI, and API-key AI execution are unavailable.
+    Connected Claude, Codex (ChatGPT), and Gemini subscription routes are separate.
     Installation guide: https://github.com/djfksjd/kkachi-releases/blob/main/docs/INSTALLATION.md
   EOS
 end
